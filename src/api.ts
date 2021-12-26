@@ -1,7 +1,7 @@
-// @ts-check
+require('dotenv').config({ path: `./enviroments/${process.env.NODE_ENV}.env` })
+
 import axios from "axios";
 import queryString from 'query-string';
-require('dotenv').config()
 
 const pipedriveURL = process.env.URL_PIPEDRIVE
 const apiToken = process.env.TOKEN_PIPEDRIVE

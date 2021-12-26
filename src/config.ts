@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: `./enviroments/${process.env.NODE_ENV}.env` })
 
 export enum Stage {
   prueba = 2
