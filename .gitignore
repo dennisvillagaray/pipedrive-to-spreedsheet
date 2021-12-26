@@ -17,3 +17,6 @@ typings/
 
 # Dependency directories
 node_modules/
+
+# Dotenv
+.env
