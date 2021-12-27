@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Denns95/pipedrive-to-spreedsheet.git"
+    "url": "git+https://github.com/dennisvillagaray/pipedrive-to-spreedsheet.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dennis Villagaray",
   "license": "ISC",
   "engines": {
     "node": "14"
   },
   "bugs": {
-    "url": "https://github.com/Denns95/pipedrive-to-spreedsheet/issues"
+    "url": "https://github.com/dennisvillagaray/pipedrive-to-spreedsheet/issues"
   },
-  "homepage": "https://github.com/Denns95/pipedrive-to-spreedsheet#readme",
+  "homepage": "https://github.com/dennisvillagaray/pipedrive-to-spreedsheet#readme",
   "dependencies": {
     "axios": "^0.24.0",
     "cors": "^2.8.5",
