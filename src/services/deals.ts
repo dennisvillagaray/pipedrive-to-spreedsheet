@@ -1,4 +1,3 @@
-// @ts-check
 import { owner, Stage } from './../config';
 import { post } from './../api';
 

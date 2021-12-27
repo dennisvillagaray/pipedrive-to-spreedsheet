@@ -7,6 +7,7 @@ import { registerDealSchema } from "../schemas/register";
 import * as DealServices from '../services/deals';
 import * as OrganizationServices from '../services/organizations';
 import * as PersonServices from '../services/person';
+import { addRowIntoGoogleSheet } from "../services/spreadsheet";
 
 export const register = async (req: Request, res: Response) => {
   const { error } = Joi.validate(req.body, registerDealSchema)
@@ -62,6 +63,7 @@ export const register = async (req: Request, res: Response) => {
         personId: person.id,
         organizationId: organization.id
       })
+      addRowIntoGoogleSheet(req.body)
 
       return res.json({
         success: true,
